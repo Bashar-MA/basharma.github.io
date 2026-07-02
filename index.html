@@ -3,375 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md Abul Bashar | Academic & Research Portfolio</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Md. Abul Bashar | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        html { scroll-behavior: smooth; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased">
+<body class="bg-slate-50 text-slate-900 antialiased">
 
     <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16">
-                <div class="flex items-center">
-                    <span class="text-xl font-bold tracking-tight text-slate-900">Md Abul Bashar</span>
-                </div>
-                <div class="hidden lg:flex items-center space-x-5 text-sm font-medium text-slate-600">
-                    <a href="#about" class="hover:text-indigo-600 transition">About</a>
-                    <a href="#education" class="hover:text-indigo-600 transition">Education</a>
-                    <a href="#experience" class="hover:text-indigo-600 transition">Research and Other Experiences</a>
-                    <a href="#publications" class="hover:text-indigo-600 transition">Publications</a>
-                    <a href="#awards" class="hover:text-indigo-600 transition">Awards & Recognition</a>
-                    <a href="#skills" class="hover:text-indigo-600 transition">Skills</a>
-                    <a href="#references" class="hover:text-indigo-600 transition">References</a>
-                    <a href="#contact" class="px-3 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800 transition">Contact</a>
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="font-bold text-xl tracking-tight text-indigo-600">M.A. Bashar</div>
+                <div class="hidden md:flex space-x-6 text-sm font-medium text-slate-600">
+                    <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
+                    <a href="#publications" class="hover:text-indigo-600 transition-colors">Publications</a>
+                    <a href="#awards" class="hover:text-indigo-600 transition-colors">Awards</a>
+                    <a href="#skills" class="hover:text-indigo-600 transition-colors">Skills</a>
+                    <a href="#references" class="hover:text-indigo-600 transition-colors">References</a>
+                    <a href="#contact" class="hover:text-indigo-600 transition-colors">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
 
-    <header id="about" class="relative overflow-hidden bg-white border-b border-slate-100 py-20">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
-                <div class="md:col-span-2 space-y-6">
-                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-indigo-50 text-indigo-700 ring-1 ring-indigo-700/10 ring-inset">
-                        B.Pharm Graduate
-                    </span>
-                    <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-slate-900 leading-tight">
-                        Neuroscience Research Enthusiast
+    <section id="about" class="py-20 bg-white border-b border-slate-200">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row gap-10 items-center">
+                <div class="flex-1 space-y-6">
+                    <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-slate-900">
+                        Md. Abul Bashar
                     </h1>
-                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
-                        I am Md. Abul Bashar, a recent B.Pharm (Bachelor of Pharmacy) graduate from Islamic University, Kushtia, Bangladesh. I am passionate about understanding the molecular and pathophysiological mechanisms underlying proteinopathic neurodegenerative disorders, particularly Amyotrophic Lateral Sclerosis (ALS) and Frontotemporal Dementia (FTD). My research interests focus on investigating how protein misfolding, aggregation, and disease-associated mutations contribute to neurodegeneration, as well as applying computational and structural biology approaches to identify potential therapeutic targets and develop novel treatment strategies.
+                    <p class="text-lg text-indigo-600 font-semibold">
+                        B. Pharm Student | Computational Biology & Molecular Dynamics
                     </p>
-                    <div class="flex flex-col sm:flex-row gap-3 pt-2 text-sm font-medium text-slate-600">
-                        <span class="flex items-center"><i class="fa-solid fa-phone mr-2 text-indigo-500"></i> +8801568059410</span>
-                        <span class="hidden sm:inline text-slate-300">|</span>
-                        <span class="flex items-center"><i class="fa-solid fa-envelope mr-2 text-indigo-500"></i> bashar.iu.ph@gmail.com</span>
-                    </div>
-                </div>
-                <div class="flex justify-center md:justify-end">
-                    <div class="relative group">
-                        <div class="absolute -inset-0.5 bg-gradient-to-r from-indigo-500 to-teal-500 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-1000"></div>
-                        <img src="profile.jpeg" alt="Md. Abul Bashar" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400&h=400'" class="relative w-64 h-64 sm:w-72 sm:h-72 object-cover rounded-2xl border border-slate-100 shadow-md">
-                    </div>
+                    <p class="text-slate-600 leading-relaxed text-base">
+                        I am an undergraduate Pharmacy student at Islamic University, Kushtia (CGPA: 3.83/4.00, Class Rank: 2nd). I am deeply passionate about computational structural biology, protein dynamics, and neurodegenerative diseases (ALS, Alzheimer's). My research utilizes advanced MD simulations (minimum 1 microsecond to infer accurate protein folding) to study mutational effects on protein complexes. My long-term goal is to pursue a fully-funded PhD in virotherapy or cellular biology and establish an independent research laboratory.
+                    </p>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
 
-    <section id="education" class="py-16 bg-slate-50 border-b border-slate-200">
+    <section id="publications" class="py-16 bg-slate-50 border-b border-slate-200">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="space-y-2 mb-10">
-                <h2 class="text-3xl font-bold tracking-tight text-slate-900">Education</h2>
+                <h2 class="text-3xl font-bold tracking-tight text-slate-900">Selected Publications</h2>
             </div>
             
             <div class="space-y-6">
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row gap-6 items-start">
-                    <div class="w-20 h-20 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                        <img src="iu-logo.png" alt="Islamic University Logo" onerror="this.src='https://placeholder.co/150'" class="max-w-full max-h-full object-contain">
-                    </div>
-                    <div class="space-y-3 flex-1">
-                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-900">Bachelor of Pharmacy (B.Pharm)</h3>
-                                <p class="text-sm font-medium text-slate-600">Department of Pharmacy, Faculty of Biological Sciences, Islamic University, Kushtia 7003, Bangladesh</p>
-                            </div>
-                            <span class="text-sm font-semibold text-indigo-700 bg-indigo-50 px-3 py-1 rounded-md shrink-0">Jan 2020 – Mar 2026</span>
-                        </div>
-                        
-                        <div class="flex flex-wrap gap-4 text-sm font-semibold text-slate-700 bg-slate-50 p-3 rounded-lg border border-slate-100">
-                            <span><i class="fa-solid fa-graduation-cap mr-1 text-indigo-500"></i> CGPA: 3.83 / 4.00</span>
-                            <span class="text-slate-300">|</span>
-                            <span><i class="fa-solid fa-trophy mr-1 text-amber-500"></i> Rank: 3rd in Class</span>
-                            <span class="text-slate-300">|</span>
-                            <a href="https://drive.google.com/file/d/1QLC2VsMigI8VQxnIeQNHr4N1N_Z8GV-x/view?usp=sharing" target="_blank" class="text-indigo-600 hover:text-indigo-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> View Transcript</a>
-                        </div>
-                        
-                        <div class="text-sm text-slate-600 space-y-2 pt-2">
-                            <p><strong>Bachelor Project:</strong> Insights into the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis</p>
-                            <div>
-                                <strong>Core Studied Subjects (160 Credits, 8 Semesters):</strong>
-                                <ul class="list-disc list-inside mt-1 space-y-1 ml-2 text-slate-500">
-                                    <li>Physical Pharmaceutics, Pharmaceutical Technology, Industrial Pharmacy, Microbiology, Marketing & Sales, Law & Admin, Dosage Form Design, Pharmacokinetics, Engineering, Cosmetology, Biopharmaceutics.</li>
-                                    <li>Pharmaceutical Chemistry (Inorganic, Organic, Physical), Medicinal Chemistry, Synthetic & Natural Medicinal Products, Pharmacognosy, Analysis & Quality Control.</li>
-                                    <li>Pharmacology, Physiology, Biochemistry, Molecular Biology & Biotechnology, Pathology, Drug Interaction & Toxicology, Hospital & Community Pharmacy.</li>
-                                    <li>Mathematics, Biostatistics, Research Methodology.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row gap-6 items-start">
-                    <div class="w-20 h-20 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                        <img src="jauc-logo.png" alt="Juranpur Adarsha College Logo" onerror="this.src='https://placeholder.co/150'" class="max-w-full max-h-full object-contain">
-                    </div>
-                    <div class="space-y-3 flex-1">
-                        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-900">Higher Secondary School Certificate [Grade 11 & 12]</h3>
-                                <p class="text-sm font-medium text-slate-600">Department of Science, Juranpur Adarsha Degree College, Juranpur 3516, Daudkandi, Cumilla, Bangladesh</p>
-                            </div>
-                            <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-3 py-1 rounded-md shrink-0">2017 – 2019</span>
-                        </div>
-                        
-                        <div class="flex flex-wrap gap-4 text-sm font-semibold text-slate-700 bg-slate-50 p-3 rounded-lg border border-slate-100">
-                            <span><i class="fa-solid fa-star mr-1 text-amber-500"></i> GPA: 5.00 / 5.00</span>
-                            <span class="text-slate-300">|</span>
-                            <span><i class="fa-solid fa-medal mr-1 text-indigo-500"></i> Rank: 321st (Cumilla Board)</span>
-                            <span class="text-slate-300">|</span>
-                            <a href="https://drive.google.com/file/d/19XLMgvz_G7GEm0FQWJsU6_AtNejpvpPZ/view?usp=sharing" target="_blank" class="text-indigo-600 hover:text-indigo-800 hover:underline"><i class="fa-solid fa-arrow-up-right-from-square mr-1"></i> View Credentials</a>
-                        </div>
-                        <p class="text-sm text-slate-600"><strong>Studied Subjects:</strong> Biology, Chemistry, Physics, Mathematics, Information & Communication Technology, English, Bangla.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="py-16 bg-white border-b border-slate-200">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="space-y-2 mb-10">
-                <h2 class="text-3xl font-bold tracking-tight text-slate-900">Research Experiences</h2>
-            </div>
-
-            <div class="space-y-6">
-                <div class="flex flex-col md:flex-row gap-6 p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
-                    <div class="w-20 h-20 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                        <img src="dgist-logo.png" alt="DGIST Logo" onerror="this.src='https://placeholder.co/150'" class="max-w-full max-h-full object-contain">
-                    </div>
-                    <div class="space-y-3 flex-1">
-                        <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-900">Research With Collaboration</h3>
-                                <p class="text-sm font-medium text-slate-600">Mentor: Dr. Raju Dash, Post-doctoral Fellow</p>
-                                <p class="text-xs text-slate-500 mt-0.5">Daegu Gyeongbuk Institute of Science and Technology (DGIST)</p>
-                            </div>
-                            <span class="text-sm font-semibold text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded-md shrink-0">Jan 2024 - Present</span>
-                        </div>
-                        <ul class="text-sm text-slate-600 space-y-2 pt-2">
-                            <li class="flex items-start"><i class="fa-solid fa-caret-right text-indigo-500 mt-1 mr-2"></i> Conducted Molecular Dynamics (MD) Simulation to Understand the Pathophysiological Mechanism of Neurodegenerative Diseases including Amyotrophic Lateral Sclerosis.</li>
-                            <li class="flex items-start"><i class="fa-solid fa-caret-right text-indigo-500 mt-1 mr-2"></i> Carried out Virtual Screening-Based Analyses to Identify Potential Compounds with Therapeutic Potentials for Diseases, including Molecular Docking, MM-GBSA, and MD Simulation.</li>
-                            <li class="flex items-start"><i class="fa-solid fa-caret-right text-indigo-500 mt-1 mr-2"></i> Participated in RNASeq Study to Discover Potential Biomarkers for Parkinson Disease.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="flex flex-col md:flex-row gap-6 p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition">
-                    <div class="w-20 h-20 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                        <img src="cabair-logo.png" alt="CBAIR Logo" onerror="this.src='https://placeholder.co/150'" class="max-w-full max-h-full object-contain">
-                    </div>
-                    <div class="space-y-3 flex-1">
-                        <div class="flex flex-col sm:flex-row sm:items-start justify-between gap-2">
-                            <div>
-                                <h3 class="text-xl font-bold text-slate-900">Research Assistant</h3>
-                                <p class="text-sm font-medium text-slate-600">Mentor: Dr. Habibur Rahman (Director, CBAIR | Associate Professor, CSE)</p>
-                                <p class="text-xs text-slate-500 mt-0.5">Islamic University, Kushtia, Bangladesh</p>
-                            </div>
-                            <span class="text-sm font-semibold text-slate-600 bg-slate-100 px-2.5 py-1 rounded-md shrink-0">Jan – Dec 2023</span>
-                        </div>
-                        <ul class="text-sm text-slate-600 space-y-2 pt-2">
-                            <li class="flex items-start"><i class="fa-solid fa-caret-right text-indigo-500 mt-1 mr-2"></i> Conducted Virtual Screening-Based Study to Identify Phytochemicals From Ajwa Dates With Anticancer Potentials.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-16 bg-slate-50 border-b border-slate-200">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="space-y-2 mb-10">
-                <h2 class="text-3xl font-bold tracking-tight text-slate-900">In-Plant Training</h2>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col gap-4">
-                    <div class="flex justify-between items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                            <img src="beximco-logo.png" alt="Beximco Pharma Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-1 rounded">26 Oct – 5 Nov 2025</span>
+                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-start gap-5 transition-shadow hover:shadow-md">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-200 p-2 overflow-hidden hidden sm:flex">
+                        <img src="assets/images/ijbs-logo.png" alt="IJBS Logo" onerror="this.src='https://ui-avatars.com/api/?name=IJBS&background=e2e8f0&color=1e293b&font-size=0.35'" class="max-w-full max-h-full object-contain">
                     </div>
                     <div>
-                        <h3 class="text-lg font-bold text-slate-900">Beximco Pharmaceuticals Ltd.</h3>
-                        <p class="text-sm text-slate-500">Tongi, Bangladesh</p>
-                        <p class="text-sm text-slate-600 mt-2">Leading US FDA-approved Pharmaceutical company in Bangladesh.</p>
-                    </div>
-                    <div class="mt-auto pt-4">
-                        <a href="https://drive.google.com/file/d/1WoGnn5MhQlEGKNqncg8prrK6_liI97kM/view?usp=sharing" target="_blank" class="inline-flex items-center text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
-                            <i class="fa-solid fa-file-contract mr-1.5"></i> View Credentials
-                        </a>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1 block">First Author &bull; 2025</span>
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight mb-2">VAPB MSP Domain Mutations and Amyotrophic Lateral Sclerosis (ALS)</h3>
+                        <p class="text-sm text-slate-600 italic mb-3">International Journal of Biological Sciences</p>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            A comprehensive study utilizing computational biology to understand the mutational effects on structural dynamics in complexes associated with ALS.
+                        </p>
                     </div>
                 </div>
 
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col gap-4">
-                    <div class="flex justify-between items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-white rounded-lg border border-slate-100 overflow-hidden p-2">
-                            <img src="mordern-logo.jpg" alt="Modern Pharma Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <span class="text-xs font-bold text-slate-500 bg-slate-100 px-2 py-1 rounded">10 Sep – 25 Sep 2025</span>
+                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex flex-col sm:flex-row items-start gap-5 transition-shadow hover:shadow-md">
+                    <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded-lg border border-slate-200 p-2 overflow-hidden hidden sm:flex">
+                        <img src="assets/images/cpd-logo.png" alt="CPD Logo" onerror="this.src='https://ui-avatars.com/api/?name=CPD&background=e2e8f0&color=1e293b&font-size=0.35'" class="max-w-full max-h-full object-contain">
                     </div>
                     <div>
-                        <h3 class="text-lg font-bold text-slate-900">Modern Pharmaceuticals Ltd.</h3>
-                        <p class="text-sm text-slate-500">Jhenaidah, Bangladesh</p>
-                        <p class="text-sm text-slate-600 mt-2">ISO 9001:2015 Certified Local Pharmaceutical Company.</p>
-                    </div>
-                    <div class="mt-auto pt-4">
-                        <a href="https://drive.google.com/file/d/1bxsXfMsm05uWI_PRoC3ISJVXpYFh00zw/view?usp=sharing" target="_blank" class="inline-flex items-center text-sm font-semibold text-indigo-600 hover:text-indigo-800 hover:underline">
-                            <i class="fa-solid fa-file-contract mr-1.5"></i> View Credentials
-                        </a>
+                        <span class="text-xs font-bold text-indigo-600 uppercase tracking-wider mb-1 block">First Author &bull; 2024-2025</span>
+                        <h3 class="text-lg font-bold text-slate-900 leading-tight mb-2">Role of Phytochemicals in Breast Cancer Therapeutics</h3>
+                        <p class="text-sm text-slate-600 italic mb-3">Current Pharmaceutical Design (CPD)</p>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Exploration of novel phytochemical compounds and their binding affinities using structure-based molecular docking and dynamic simulations.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="publications" class="py-16 bg-white border-b border-slate-200">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            
-            <div class="mb-12">
-                <h2 class="text-3xl font-bold tracking-tight text-slate-900 mb-8">Publications & Preprints</h2>
-                <div class="space-y-4">
-                    
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded border border-slate-100 p-1">
-                            <img src="ijms-logo.png" alt="IJMS Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">1.</span> <strong>Bashar MA</strong>, Dash N, Mitra S, Dash R*. Disclosing Pathogenic Variant Effects on the Structural Dynamics of the VAPB MSP Domain Causing Familial ALS. <em>International Journal of Molecular Sciences</em>. 2025, Jul 5; 26(13): 6489.</p>
-                            <div class="flex flex-wrap gap-3 mt-2 text-xs font-medium">
-                                <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded">IF: 4.9</span>
-                                <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded">JCR: Q1</span>
-                                <a href="https://doi.org/10.3390/ijms26136489" target="_blank" class="text-indigo-600 hover:underline"><i class="fa-solid fa-link"></i> DOI: 10.3390/ijms26136489</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded border border-slate-100 p-1">
-                            <img src="cpd-logo.jpg" alt="CPD Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">2.</span> <strong>Bashar MA</strong>, Hossain MA, Kavey MRH, Shazib R, Islam MS, Ansari SA, Rahman MH*. Network pharmacology and <em>in silico</em> elucidation of phytochemicals extracted from Ajwa dates (<em>Phoenix dactylifera L.</em>) to inhibit Akt and PI3K causing triple-negative breast cancer (TNBC). <em>Current Pharmaceutical Design</em>. 2024 Jun 7; 12(1):1-7.</p>
-                            <div class="flex flex-wrap gap-3 mt-2 text-xs font-medium">
-                                <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded">IF: 2.6</span>
-                                <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded">JCR: Q2</span>
-                                <a href="http://dx.doi.org/10.2174/0113816128348876241017101729" target="_blank" class="text-indigo-600 hover:underline"><i class="fa-solid fa-link"></i> DOI: 10.2174/0113816128348876241017101729</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded border border-slate-100 p-1">
-                            <img src="app-sci-logo.jpg" alt="Applied Sciences Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">3.</span> Dash N, <strong>Bashar MA</strong>, Lee J, Dash R*. Identification of Novel Biomarkers in Huntington’s Disease Based on Differential Gene Expression Meta-Analysis and Machine Learning Approach. <em>Applied Sciences</em>. 2025 Jul 25; 15(15): 8286.</p>
-                            <div class="flex flex-wrap gap-3 mt-2 text-xs font-medium">
-                                <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded">IF: 2.5</span>
-                                <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded">JCR: Q2</span>
-                                <a href="https://doi.org/10.3390/app15158286" target="_blank" class="text-indigo-600 hover:underline"><i class="fa-solid fa-link"></i> DOI: 10.3390/app15158286</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded border border-slate-100 p-1">
-                            <img src="nutrients-logo.png" alt="Nutrients Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">4.</span> Mitra S<sup>#</sup>*, Dash R<sup>#</sup>, <strong>Bashar MA</strong>, Mazumder K, Moon IS*. Neuroprotective and Neurotrophic Potential of <em>Flammulina velutipes</em> Extracts in Primary Hippocampal Neuronal Culture. <em>Nutrients</em>. 2025 Sep; 17(19):3107. <span class="text-xs text-slate-500">[<sup>#</sup>Equal Contribution]</span></p>
-                            <div class="flex flex-wrap gap-3 mt-2 text-xs font-medium">
-                                <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded">IF: 5.0</span>
-                                <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded">JCR: Q1</span>
-                                <a href="https://doi.org/10.3390/nu17193107" target="_blank" class="text-indigo-600 hover:underline"><i class="fa-solid fa-link"></i> DOI: 10.3390/nu17193107</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-slate-50 rounded border border-slate-100 p-1">
-                            <img src="prp-logo.png" alt="PRP Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">5.</span> Hoque N, Tipu MTR, <strong>Bashar MA</strong>, Dash R, Ahamed KU, Ali ML, Mamun MJI, Akter B, Hossain MK, Proma NM*. Investigating the Phytochemical Constituents, Anti-Inflammatory, and Neuropharmacological Activities of <em>Podocarpus neriifolius</em> Leaves Through FT-IR, GC–MS, Experimental Studies, Molecular Docking, and Molecular Dynamics Simulations. <em>Pharmacology Research & Perspectives</em>. 2026 Jun 02; 14(3): e70272.</p>
-                            <div class="flex flex-wrap gap-3 mt-2 text-xs font-medium">
-                                <span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded">IF: 2.3</span>
-                                <span class="bg-amber-50 text-amber-700 px-2 py-0.5 rounded">JCR: Q2</span>
-                                <a href="https://doi.org/10.1002/prp2.70272" target="_blank" class="text-indigo-600 hover:underline"><i class="fa-solid fa-link"></i> DOI: 10.1002/prp2.70272</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start bg-slate-50">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-white rounded border border-slate-200 p-1">
-                            <img src="biorxiv-logo.jpg" alt="bioRxiv Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">6.</span> Rahim ZB<sup>#</sup>, <strong>Bashar MA<sup>#</sup></strong>, Dash N, Paul S, Ziad R, Mitra S, Dash R*. Unraveling the distinct motion bias of TrkA-NGF complex in NGFR100W-driven HSAN V disease. <em>bioRxiv</em> 2025 Feb. <span class="text-xs text-slate-500">[<sup>#</sup>Equal Contribution]</span></p>
-                            <span class="inline-block mt-2 bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded font-medium">Preprint</span>
-                        </div>
-                    </div>
-
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm flex flex-col sm:flex-row gap-5 items-start bg-slate-50">
-                        <div class="w-16 h-16 shrink-0 flex items-center justify-center bg-white rounded border border-slate-200 p-1">
-                            <img src="biorxiv-logo.jpg" alt="bioRxiv Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="flex-1 text-sm text-slate-700">
-                            <p class="mb-1"><span class="font-bold text-slate-900">7.</span> <strong>Bashar MA</strong>, Barua L, Paul S, Dash N, Sadhu T, Mitra S*, Dash R*. Elucidating conformational alteration of human islet amyloid polypeptide by nonsynonymous substitution. <em>bioRxiv</em> 2024 Dec.</p>
-                            <span class="inline-block mt-2 bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded font-medium">Preprint</span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Conference Poster Presentation</h3>
-                    <div class="p-5 border border-slate-200 rounded-lg shadow-sm bg-indigo-50/30 flex flex-col gap-4">
-                        <div class="w-14 h-14 shrink-0 flex items-center justify-center bg-white rounded border border-slate-200 p-1">
-                            <img src="iybc-logo.png" alt="IYBC Logo" onerror="this.src='https://placeholder.co/100'" class="max-w-full max-h-full object-contain">
-                        </div>
-                        <div class="text-sm text-slate-700">
-                            <p class="mb-2"><span class="font-bold text-slate-900">1.</span> <strong>Bashar MA</strong>, Rafi RI, Mitra S, Sarkar AP*, Dash R*. Insights into the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis.</p>
-                            <p class="text-xs text-slate-500 mb-1"><em>6th International Young Biotechnologist Congress 2026.</em> Nabab Nawab Ali Chowdhury Senate Bhaban, University of Dhaka, Dhaka 1000, Bangladesh.</p>
-                            <p class="text-xs font-semibold text-indigo-700 mt-2"><i class="fa-solid fa-microphone mr-1"></i> Presenter: Bashar MA</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <h3 class="text-xl font-bold text-slate-900 mb-4 border-b border-slate-200 pb-2">Prepared Manuscripts</h3>
-                    <div class="space-y-4">
-                        <div class="p-4 border border-dashed border-slate-300 rounded-lg bg-slate-50">
-                            <p class="text-sm text-slate-600"><span class="font-bold text-slate-800">1.</span> <strong>Bashar MA</strong>, Rafi RI, Sarkar AP*, Dash R*. Elucidating the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis: Impaired OPTN-Mediated Autophagy.</p>
-                        </div>
-                        <div class="p-4 border border-dashed border-slate-300 rounded-lg bg-slate-50">
-                            <p class="text-sm text-slate-600"><span class="font-bold text-slate-800">2.</span> Kim YR, <strong>Bashar MA</strong>, Dash R*. Identification of Selective Mpox VP39 Inhibitors Through</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="awards" class="py-16 bg-slate-50 border-b border-slate-200">
+    <section id="awards" class="py-16 bg-white border-b border-slate-200">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="space-y-2 mb-10">
                 <h2 class="text-3xl font-bold tracking-tight text-slate-900">Awards & Recognition</h2>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex items-start gap-5 transition-shadow hover:shadow-md">
-                    <div class="w-14 h-14 shrink-0 flex items-center justify-center bg-slate-50 rounded-full border border-slate-200 p-1.5 overflow-hidden">
-                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://placehold.co/100'" class="max-w-full max-h-full object-contain">
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-200 shadow-sm flex items-start gap-5 transition-shadow hover:shadow-md">
+                    <div class="w-14 h-14 shrink-0 flex items-center justify-center bg-white rounded-full border border-slate-200 p-1.5 overflow-hidden">
+                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://ui-avatars.com/api/?name=IU&background=cbd5e1&color=0f172a&font-size=0.4'" class="max-w-full max-h-full object-contain">
                     </div>
                     <div>
                         <h3 class="text-lg font-bold text-slate-900">University Merit-Based Scholarship</h3>
@@ -382,13 +108,13 @@
                     </div>
                 </div>
 
-                <div class="p-6 bg-white rounded-xl border border-slate-200 shadow-sm flex items-start gap-5 transition-shadow hover:shadow-md">
-                    <div class="w-14 h-14 shrink-0 flex items-center justify-center bg-slate-50 rounded-full border border-slate-200 p-1.5 overflow-hidden">
-                        <img src="assets/images/cumilla-board-logo.png" alt="Cumilla Board Logo" onerror="this.src='https://placehold.co/100'" class="max-w-full max-h-full object-contain">
+                <div class="p-6 bg-slate-50 rounded-xl border border-slate-200 shadow-sm flex items-start gap-5 transition-shadow hover:shadow-md">
+                    <div class="w-14 h-14 shrink-0 flex items-center justify-center bg-white rounded-full border border-slate-200 p-1.5 overflow-hidden">
+                        <img src="assets/images/cumilla-board-logo.png" alt="Cumilla Board Logo" onerror="this.src='https://ui-avatars.com/api/?name=CB&background=cbd5e1&color=0f172a&font-size=0.4'" class="max-w-full max-h-full object-contain">
                     </div>
                     <div>
                         <h3 class="text-lg font-bold text-slate-900">National Education Board Scholarship</h3>
-                        <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded mt-1 inline-block">2020 - 2025</span>
+                        <span class="text-xs font-semibold text-slate-500 bg-slate-200 px-2 py-0.5 rounded mt-1 inline-block">2020 - 2025</span>
                         <p class="text-sm text-slate-600 mt-2 leading-relaxed">
                             <i class="fa-solid fa-medal text-indigo-500 mr-1.5"></i> Position: 321st in Education Board (Cumilla) in Higher Secondary School Certificate (HSC) Examination, 2019.
                         </p>
@@ -456,7 +182,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="p-6 border border-slate-200 rounded-xl text-center flex flex-col items-center bg-slate-50 hover:border-indigo-200 transition-colors">
                     <div class="w-16 h-16 mb-4 flex items-center justify-center bg-white rounded-full border border-slate-200 overflow-hidden p-1 shadow-sm">
-                        <img src="assets/images/dgist-logo.png" alt="DGIST Logo" onerror="this.src='https://placehold.co/100'" class="max-w-full max-h-full object-contain">
+                        <img src="assets/images/dgist-logo.png" alt="DGIST Logo" onerror="this.src='https://ui-avatars.com/api/?name=DG&background=cbd5e1&color=0f172a&font-size=0.4'" class="max-w-full max-h-full object-contain">
                     </div>
                     <h3 class="font-bold text-slate-900">Dr. Raju Dash</h3>
                     <p class="text-xs text-indigo-600 font-semibold mb-2">Current Research Mentor</p>
@@ -469,7 +195,7 @@
 
                 <div class="p-6 border border-slate-200 rounded-xl text-center flex flex-col items-center bg-slate-50 hover:border-indigo-200 transition-colors">
                     <div class="w-16 h-16 mb-4 flex items-center justify-center bg-white rounded-full border border-slate-200 overflow-hidden p-1 shadow-sm">
-                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://placehold.co/100'" class="max-w-full max-h-full object-contain">
+                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://ui-avatars.com/api/?name=IU&background=cbd5e1&color=0f172a&font-size=0.4'" class="max-w-full max-h-full object-contain">
                     </div>
                     <h3 class="font-bold text-slate-900">Dr. Habibur Rahman</h3>
                     <p class="text-xs text-indigo-600 font-semibold mb-2">Former Research Mentor</p>
@@ -482,7 +208,7 @@
 
                 <div class="p-6 border border-slate-200 rounded-xl text-center flex flex-col items-center bg-slate-50 hover:border-indigo-200 transition-colors">
                     <div class="w-16 h-16 mb-4 flex items-center justify-center bg-white rounded-full border border-slate-200 overflow-hidden p-1 shadow-sm">
-                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://placehold.co/100'" class="max-w-full max-h-full object-contain">
+                        <img src="assets/images/iu-logo.png" alt="IU Logo" onerror="this.src='https://ui-avatars.com/api/?name=IU&background=cbd5e1&color=0f172a&font-size=0.4'" class="max-w-full max-h-full object-contain">
                     </div>
                     <h3 class="font-bold text-slate-900">Arghya Prosun Sarkar</h3>
                     <p class="text-xs text-indigo-600 font-semibold mb-2">Bachelor Project Supervisor</p>
@@ -522,7 +248,7 @@
             </div>
             
             <div class="pt-8 border-t border-slate-800 text-xs text-slate-500">
-                &copy; 2026 Md Abul Bashar. All rights reserved. Built for GitHub Pages.
+                &copy; 2026 Md. Abul Bashar. All rights reserved. Built for GitHub Pages.
             </div>
         </div>
     </footer>
