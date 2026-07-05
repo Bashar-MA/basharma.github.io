@@ -217,6 +217,18 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--teal); outline-of
 .reveal.in-view{ opacity:1; transform:translateY(0); }
 @media (prefers-reduced-motion: reduce){ .reveal{ opacity:1; transform:none; transition:none; } }
 </style>
+
+<!-- Analytics: Google Analytics (GA4) -->
+<!-- 1. Go to https://analytics.google.com and create a free GA4 property for your site -->
+<!-- 2. Copy your Measurement ID (looks like G-XXXXXXXXXX) -->
+<!-- 3. Replace BOTH instances of G-XXXXXXXXXX below with your Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FQCQH5B14G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 </head>
 <body>
 
@@ -528,49 +540,47 @@ a:focus-visible, button:focus-visible{ outline:2px solid var(--teal); outline-of
 
     </div>
 
-    <div class="grid-2" style="margin-top:44px;">
-      <div>
-        <h3 class="sub-head">Conference Poster Presentation</h3>
-        <div class="pub-list">
-          <div class="pub-item">
-            <div class="pub-lead">
-              <span class="pub-num">01</span>
-              <div class="pub-logo"><img src="iybc-logo.png" alt="IYBC Logo" onerror="this.src='https://placeholder.co/100'"></div>
-            </div>
-            <div class="pub-body">
-              <p class="pub-cite"><strong>Bashar MA</strong>, Rafi RI, Mitra S, Sarkar AP*, Dash R*. Insights into the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis.</p>
-              <p class="pub-meta"><span>6th International Young Biotechnologist Congress 2026</span><span class="dot">&middot;</span><span>University of Dhaka</span><span class="dot">&middot;</span><span class="presenter-tag">Presenter: Bashar MA</span></p>
-            </div>
+    <div style="margin-top:44px;">
+      <h3 class="sub-head">Conference Poster Presentation</h3>
+      <div class="pub-list">
+        <div class="pub-item">
+          <div class="pub-lead">
+            <span class="pub-num">01</span>
+            <div class="pub-logo"><img src="iybc-logo.png" alt="IYBC Logo" onerror="this.src='https://placeholder.co/100'"></div>
           </div>
-          <div class="pub-item">
-            <div class="pub-lead">
-              <span class="pub-num">02</span>
-              <div class="pub-logo"><img src="iybc-logo.png" alt="IYBC Logo" onerror="this.src='https://placeholder.co/100'"></div>
-            </div>
-            <div class="pub-body">
-              <p class="pub-cite">Rafi RI, Murad WBA, Dash N, <strong>Bashar MA</strong>, Barua L, Mitra S*, Dash R*. Deciphering NGF mutation-induced biased activation of the NGF-TrkA complex using molecular dynamics simulation.</p>
-              <p class="pub-meta"><span>6th International Young Biotechnologist Congress 2026</span><span class="dot">&middot;</span><span>University of Dhaka</span><span class="dot">&middot;</span><span class="presenter-tag">Presenter: Rafi RI</span></p>
-            </div>
+          <div class="pub-body">
+            <p class="pub-cite"><strong>Bashar MA</strong>, Rafi RI, Mitra S, Sarkar AP*, Dash R*. Insights into the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis.</p>
+            <p class="pub-meta"><span>6th International Young Biotechnologist Congress 2026</span><span class="dot">&middot;</span><span>University of Dhaka</span><span class="dot">&middot;</span><span class="presenter-tag">Presenter: Bashar MA</span></p>
+          </div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-lead">
+            <span class="pub-num">02</span>
+            <div class="pub-logo"><img src="iybc-logo.png" alt="IYBC Logo" onerror="this.src='https://placeholder.co/100'"></div>
+          </div>
+          <div class="pub-body">
+            <p class="pub-cite">Rafi RI, Murad WBA, Dash N, <strong>Bashar MA</strong>, Barua L, Mitra S*, Dash R*. Deciphering NGF mutation-induced biased activation of the NGF-TrkA complex using molecular dynamics simulation.</p>
+            <p class="pub-meta"><span>6th International Young Biotechnologist Congress 2026</span><span class="dot">&middot;</span><span>University of Dhaka</span><span class="dot">&middot;</span><span class="presenter-tag">Presenter: Rafi RI</span></p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div>
-        <h3 class="sub-head">Manuscripts in Preparation</h3>
-        <div class="pub-list">
-          <div class="pub-item">
-            <div class="pub-lead"><span class="pub-num">01</span></div>
-            <div class="pub-body">
-              <p class="pub-cite"><strong>Bashar MA</strong>, Rafi RI, Sarkar AP*, Dash R*. Elucidating the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis: Impaired OPTN-Mediated Autophagy.</p>
-              <p class="pub-meta"><span class="prep">In preparation</span></p>
-            </div>
+    <div style="margin-top:44px;">
+      <h3 class="sub-head">Manuscripts in Preparation</h3>
+      <div class="pub-list">
+        <div class="pub-item">
+          <div class="pub-lead"><span class="pub-num">01</span></div>
+          <div class="pub-body">
+            <p class="pub-cite"><strong>Bashar MA</strong>, Rafi RI, Sarkar AP*, Dash R*. Elucidating the Pathophysiological Mechanisms of TBK1 E696K Mutation in Amyotrophic Lateral Sclerosis: Impaired OPTN-Mediated Autophagy.</p>
+            <p class="pub-meta"><span class="prep">In preparation</span></p>
           </div>
-          <div class="pub-item">
-            <div class="pub-lead"><span class="pub-num">02</span></div>
-            <div class="pub-body">
-              <p class="pub-cite">Kim YR, <strong>Bashar MA</strong>, Dash R*. Identification of Selective Mpox VP39 Inhibitors Through Structure-Based Virtual Screening.</p>
-              <p class="pub-meta"><span class="prep">In preparation</span></p>
-            </div>
+        </div>
+        <div class="pub-item">
+          <div class="pub-lead"><span class="pub-num">02</span></div>
+          <div class="pub-body">
+            <p class="pub-cite">Kim YR, <strong>Bashar MA</strong>, Dash R*. Identification of Selective Mpox VP39 Inhibitors Through Structure-Based Virtual Screening.</p>
+            <p class="pub-meta"><span class="prep">In preparation</span></p>
           </div>
         </div>
       </div>
